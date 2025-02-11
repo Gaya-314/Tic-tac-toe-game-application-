@@ -1,1 +1,48 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Poppins&family=Roboto:wght@300&display=swap');
+
+*{
+
+margin:0;  
+
+padding:0;
+
+box-sizing:border-box;
+
+}
+
+body{
+
+background:#2f2f2f; 
+
+font-family: 'Poppins', sans-serif;
+
+}
+
+.board{
+
+height:400px;   
+
+width:300px;
+
+background:#2f2f2f;
+
+position:absolute;
+
+top:50%;
+
+left:50%;
+
+transform:translate(-50%, -50%);
+
+cursor:pointer;
+
+}
+
+::selection{
+
+background:white;   
+
+color:black;
+ 
+}
